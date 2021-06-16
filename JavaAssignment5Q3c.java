@@ -29,10 +29,10 @@ class JavaAssignment5Q3c{
     public static void main(String[] args) {
 
         //Setting properties from Twitter Account
-        System.setProperty("twitter4j.oauth.consumerKey", "7uTS3H1dK9NOiNWIBFoSnvnSh");
-        System.setProperty("twitter4j.oauth.consumerSecret", "038lHmjdRA6GDvxYIFBepSu9KkA7mbehlxHaAyuWvNCd1IZSOy");
-        System.setProperty("twitter4j.oauth.accessToken", "1333378396999520256-PbE4etyHZyZbZRbebwzlaOp4PvpaFC");
-        System.setProperty("twitter4j.oauth.accessTokenSecret", "6qXT4m7vTMA75MaNht1wTqxwdsWc1f4c1wvxIZ61kAaMO");
+        System.setProperty("twitter4j.oauth.consumerKey", "<palce your token here>");
+        System.setProperty("twitter4j.oauth.consumerSecret", "<palce your token here>");
+        System.setProperty("twitter4j.oauth.accessToken", "<palce your token here>");
+        System.setProperty("twitter4j.oauth.accessTokenSecret", "<palce your token here>");
 
         // setting up the Spark configuration and Spark Streaming context
         SparkConf config = new SparkConf().setMaster("local[2]").setAppName("Assignment5");
